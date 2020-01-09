@@ -1,0 +1,120 @@
+/* Smartphone  and Tablet  */
+
+@media (max-width:767px) {
+    .text-center-xs {
+        text-align: center;
+    }
+    .header {
+        background: url('../images/img01.jpg') no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 160vh;
+        position: relative;
+        color: #FFF;
+    }
+    .header h1~.lead:after {
+        content: "";
+        display: block;
+        margin: 20px auto;
+        width: 80px;
+        height: 3px;
+        background-color: #FFF;
+    }
+    .header button {
+        display: block;
+        margin: 50px auto;
+    }
+    .header form {
+        margin-top: 80px;
+    }
+
+    .social-media .icon img {
+        margin: 10px 10px;
+    }
+    .tab-section .switch-tab li {
+        display: inline-block;
+        margin: 20px;
+ 
+    }
+    .btn-lg {
+        display: block;
+        margin: 20px auto;
+    }
+    .awesome .feat-info {
+        margin-bottom: 40px;
+    }
+    .price-option .price-box {
+        width: 380px;
+        margin: 20px auto;
+    }
+    .testmonial .testmon-box {
+        margin-bottom: 80px;
+    }
+    .testmonial .testmon-box .testmon-pragh:after {
+        bottom: 40px;
+        left: 37px;
+    }
+}
+
+/* Small Screen */
+
+@media (min-width:767px) and (max-width:991px) {
+    .text-center-xs {
+        text-align: center;
+    }
+    .header {
+        background: url('../images/img01.jpg') no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 160vh;
+        position: relative;
+        color: #FFF;
+    }
+    .header h1~.lead:after {
+        content: "";
+        display: block;
+        margin: 20px auto;
+        width: 80px;
+        height: 3px;
+        background-color: #FFF;
+    }
+    .header button {
+        display: block;
+        margin: 50px auto;
+    }
+    .header form {
+        margin-top: 80px;
+    }
+    .tab-section .switch-tab li {
+
+       display: inline-block;
+       margin: 20px;
+    }
+    .btn-lg {
+        display: block;
+        margin: 20px auto;
+    }
+    .price-option .price-box {
+        width: 500px;
+        margin: 20px auto;
+    }
+  .testmonial .testmon-box {
+        margin-bottom: 60px;
+    }
+    .testmonial .testmon-box .testmon-pragh:after {
+        bottom: 40px;
+        left: 37px;
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+/*  Large Screen  */
+
+@media (min-width:1200px) {}
